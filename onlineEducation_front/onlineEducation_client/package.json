@@ -1,0 +1,32 @@
+{
+  "name": "guli",
+  "version": "1.0.0",
+  "description": "����ѧԺǰ̨��վ",
+  "author": "Long <1525684805@qq.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@babel/compat-data": "^7.11.0",
+    "axios": "^0.19.2",
+    "element-ui": "^2.13.2",
+    "js-cookie": "^2.2.1",
+    "nuxt": "^2.0.0",
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-qriously": "^1.1.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^4.19.1",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^4.0.0",
+    "swiper": "^3.4.2"
+  }
+}
